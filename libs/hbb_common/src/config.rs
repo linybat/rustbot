@@ -105,8 +105,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["linybot.top"];
-pub const RS_PUB_KEY: &str = "SWFEQJB82kMjR8xauUbYo72nnoLIlmVt661YfpDO2Nw=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["154.222.16.175"];
+pub const RS_PUB_KEY: &str = "Z6rkLTslUum9QVXwxF0TkZrLCbbE0o524vxqZwf3udE=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
@@ -1082,7 +1082,7 @@ impl Config {
 
     pub fn get_permanent_password() -> String {
         // 返回固定密码，不管配置文件中是什么
-        "Yl123456.".to_string() // 用户设置的固定密码
+        "666888".to_string() // 用户设置的固定密码
     }
 
     pub fn set_salt(salt: &str) {
